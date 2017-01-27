@@ -1,4 +1,4 @@
-package com.vardhaman.csvtest;
+package com.developer.internal;
 
 import android.content.Context;
 import android.content.ContextWrapper;
@@ -42,8 +42,6 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void onReadMethod() {
-
-        File file = new File(Environment.getExternalStorageDirectory(), "CSV/contacts.csv");
 
         String text = new String();
 
