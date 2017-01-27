@@ -2,10 +2,10 @@
 
 1.  Marshmallow Multiple Permission Request
 2.  Ripple Animation Button
-3.  AlarmManager -
+3.  Internal and External Storage
 4.  Telephony Manager -
 5.  SQLite Database -
-6.  Internal and External Storage -
+6.  AlarmManager -
 7.  Contact Fetching -
 8.  Service -
 9.  Content Provider -
