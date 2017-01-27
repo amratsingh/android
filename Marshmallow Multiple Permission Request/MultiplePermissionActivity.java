@@ -1,4 +1,4 @@
-package com.developer.permissiontest;
+package com.developer.permission;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
