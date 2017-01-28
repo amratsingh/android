@@ -13,3 +13,12 @@
 11. Facebook Integration -
 12. Google Integration -
 13. Google Maps -
+14. Fragments -
+15. WebViews -
+16. Picasso -
+17. Volley -
+18. RecyclerView -
+19. ListView -
+20. Fresco -
+21. Drawer -
+22. 
