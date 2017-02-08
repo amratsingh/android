@@ -4,21 +4,22 @@
 2.  Ripple Animation Button
 3.  Internal and External Storage
 4.  AlarmManager
-5.  Telephony Manager -
-6.  SQLite Database -
-7.  Contact Fetching -
-8.  Service -
-9.  Content Provider -
-10. Firebase Cloud Messaging -
-11. Facebook Integration -
-12. Google Integration -
-13. Google Maps -
-14. Fragments -
-15. WebViews -
-16. Picasso -
-17. Volley -
-18. RecyclerView -
-19. ListView -
-20. Fresco -
-21. Drawer -
-22. 
+5.  Double Back Press Exit
+6.  Telephony Manager -
+7.  SQLite Database -
+8.  Contact Fetching -
+9.  Service -
+10.  Content Provider -
+11. Firebase Cloud Messaging -
+12. Facebook Integration -
+13. Google Integration -
+14. Google Maps -
+15. Fragments -
+16. WebViews -
+17. Picasso -
+18. Volley -
+19. RecyclerView -
+20. ListView -
+21. Fresco -
+22. Drawer -
+23. 
