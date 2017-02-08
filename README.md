@@ -5,11 +5,11 @@
 3.  Internal and External Storage
 4.  AlarmManager
 5.  Double Back Press Exit
-6.  Telephony Manager -
+6.  Telephony Manager
 7.  SQLite Database -
 8.  Contact Fetching -
 9.  Service -
-10.  Content Provider -
+10. Content Provider -
 11. Firebase Cloud Messaging -
 12. Facebook Integration -
 13. Google Integration -
