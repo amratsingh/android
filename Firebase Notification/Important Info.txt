@@ -12,6 +12,8 @@
             </intent-filter>
         </service>
 
+
+
 2. Add Following Code to gradle.build(app) File:
 
 dependencies {
@@ -20,11 +22,14 @@ dependencies {
 }
 apply plugin: 'com.google.gms.google-services'
 
+
+
 3. Add Following Code to gradle.build(Project) File:
 
 dependencies {
     classpath 'com.google.gms:google-services:3.0.0'
 }
+
 
 
 
