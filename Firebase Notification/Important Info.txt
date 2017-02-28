@@ -1,0 +1,33 @@
+1. Add Following Code to Manifest File:
+
+
+        <service android:name=".service.BetRatesFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".service.BetRatesFirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+2. Add Following Code to gradle.build(app) File:
+
+
+dependencies {
+    compile 'com.google.firebase:firebase-core:9.8.0'
+    compile 'com.google.firebase:firebase-messaging:9.8.0'
+}
+apply plugin: 'com.google.gms.google-services'
+
+
+3. Add Following Code to gradle.build(Project) File:
+
+dependencies {
+    classpath 'com.google.gms:google-services:3.0.0'
+}
+
+Note: We can also Integrate firebase from Tools > Firebase
