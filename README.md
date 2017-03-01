@@ -5,7 +5,7 @@
 3.  Internal and External Storage
 4.  AlarmManager
 5.  Double Back Press Exit
-6.  Telephony Manager
+6.  Telephony Manager-
 7.  Firebase Notification
 8.  Android Reverse Engineering
 
