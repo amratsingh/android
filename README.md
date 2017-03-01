@@ -7,7 +7,6 @@
 5.  Double Back Press Exit
 6.  Telephony Manager
 7.  Firebase Notification
-8.  Android Reverse Engineering
 
 
 
