@@ -1,0 +1,17 @@
+Steps:
+
+1. Create a directory with name “REA”
+
+2. Keep all the tools (Dex2jar, apktool, jd-gui) into this directory
+
+3. Extract dex2jar and jd-gui zip files into the same directory.
+
+4. Now get an apk of particular application, to get that you will require ES file manager or any application which allows to export apk. For the demo purpose, I have downloaded Android wear application.
+
+5. Execute the below command to convert the apk file into jar. Once it gets converted successfully, it will create a jar file with the name “appname-dex2jar” for the “appname.apk”.
+
+   D:\RE-Android\dex2jar-0.0.9.15>d2j-dex2jar.bat "d:\REA\appname.apk"
+
+6. Now start jd-gui application and open the “Android Wear_1.0.5.1630507-dex2jar” file and enjoy reading other application’s classes and code.
+
+7. Execute apktool d yourapk.apk command to decode resources. Executing this command will give you below project structure.
