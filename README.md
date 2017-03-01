@@ -7,10 +7,8 @@
 5.  Double Back Press Exit
 6.  Telephony Manager
 7.  Firebase Notification
-
-
-
-7.  SQLite Database -
+8.  Android Reverse Engineering
+7777.  SQLite Database -
 8.  Contact Fetching -
 9.  Service -
 10. Content Provider -
