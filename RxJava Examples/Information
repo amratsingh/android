@@ -1,3 +1,0 @@
-Just add this line to module level gradle:
-
-    compile 'io.reactivex:rxandroid:0.25.0'
