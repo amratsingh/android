@@ -10,9 +10,9 @@
 8.  Android Reverse Engineering
 9.  ContentObserver (Contact)
 10. Encryption-Decryption
-11. Preloaded Database
-12. ViewPager (Slide)
-13. XMPP Chat Implementation
+11. ViewPager (Slide)
+12. XMPP Chat Implementation
+13. Preloaded Database
 14. RxJava
 
 7.  SQLite Database -
