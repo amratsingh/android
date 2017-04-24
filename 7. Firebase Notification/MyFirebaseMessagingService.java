@@ -1,4 +1,4 @@
-package com.betrates.service;
+package com.service;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -13,13 +13,13 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.betrates.MainActivity;
-import com.betrates.R;
+import com.MainActivity;
+import com.R;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-public class BetRatesFirebaseMessagingService extends FirebaseMessagingService {
+public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static final String TAG = "FirebaseMsgService";
     SharedPreferences sharedPreferences;
@@ -31,7 +31,7 @@ public class BetRatesFirebaseMessagingService extends FirebaseMessagingService {
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         Log.d("Refreshed", "Refreshed token: " + refreshedToken);
 
-        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(BetRatesFirebaseMessagingService.this);
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(MyFirebaseMessagingService.this);
 
         Log.d(TAG, "From: " + remoteMessage.getFrom());
 
@@ -76,7 +76,7 @@ public class BetRatesFirebaseMessagingService extends FirebaseMessagingService {
                 .setLargeIcon(largeIcon)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setColor(getResources().getColor(R.color.colorPrimary))
-                .setContentTitle("BetRates")
+                .setContentTitle("MyApp")
                 .setContentText(messageBody)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
