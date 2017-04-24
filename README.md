@@ -13,7 +13,7 @@
 11. ViewPager (Slide)
 12. XMPP Chat Implementation
 13. Preloaded Database
-14. RxJava
+14. RxJava (Examples)
 
 7.  SQLite Database -
 8.  Contact Fetching -
